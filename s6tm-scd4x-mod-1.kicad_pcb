@@ -81,7 +81,6 @@
 		)
 		(capping no)
 		(filling no)
-		(zone_defaults)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -122,7 +121,7 @@
 	(footprint "GLCS:Diode_DFN1006"
 		(layer "F.Cu")
 		(uuid "4787b41f-8b10-4a00-b704-8d31570ecbfe")
-		(at 147.75 103 180)
+		(at 147.75 103.25 180)
 		(descr "Diode SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "diode")
 		(property "Reference" "D2"
@@ -419,7 +418,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "5f46201e-9c43-40c7-abb4-300b990f0aa6")
-		(at 150.81 108.355 -90)
+		(at 150.75 109 -90)
 		(descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x04 2.54mm single row")
 		(property "Reference" "J1"
@@ -683,7 +682,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "647f02cf-659f-4fb2-839e-098b2f398c6a")
-		(at 145 103)
+		(at 145 103.25)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C1"
@@ -925,7 +924,7 @@
 		(property "Reference" "C4"
 			(at 11.1 0.065 0)
 			(layer "F.SilkS")
-			(uuid "281aea46-824f-4d8d-b9bd-409cdc14576c")
+			(uuid "4c371121-5b36-4904-b1d1-64a700f33c2f")
 			(effects
 				(font
 					(size 1 1)
@@ -936,7 +935,7 @@
 		(property "Value" "10u"
 			(at 0 1.43 0)
 			(layer "F.Fab")
-			(uuid "3433e46a-d0b1-4314-846b-5767d9f5d5d5")
+			(uuid "4679fcc3-fd68-4767-8411-6abdac98ef7b")
 			(effects
 				(font
 					(size 1 1)
@@ -948,7 +947,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9d5caadf-87d8-4d8a-a451-48fe85e7cb06")
+			(uuid "c013be85-14fc-4386-adc0-306f09fe4d86")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -959,7 +958,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "deee2e56-ad63-4167-b639-99e39fe49f2e")
+			(uuid "c9bfde2d-b903-4cca-b02b-b87fa9068213")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1155,7 +1154,7 @@
 	(footprint "GLCS:Diode_DFN1006"
 		(layer "F.Cu")
 		(uuid "978912cf-0551-4518-b8b8-6a99dc5b3270")
-		(at 147 105.5 90)
+		(at 147 105.75 90)
 		(descr "Diode SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "diode")
 		(property "Reference" "D3"
@@ -1452,7 +1451,7 @@
 	(footprint "Sensor:Sensirion_SCD4x-1EP_10.1x10.1mm_P1.25mm_EP4.8x4.8mm"
 		(layer "F.Cu")
 		(uuid "9884a4ba-4437-4255-9ce1-35081356902e")
-		(at 147 97)
+		(at 147 97.25)
 		(descr "Sensirion SCD4x QFN, 20 Pin (https://sensirion.com/media/documents/C4B87CE6/627C2DCD/CD_DS_SCD40_SCD41_Datasheet_D1.pdf)")
 		(tags "Sensirion QFN NoLead")
 		(property "Reference" "U1"
@@ -2109,7 +2108,7 @@
 		(property "Reference" "C5"
 			(at 0 -1.43 0)
 			(layer "F.SilkS")
-			(uuid "8be68b35-9368-4217-afe1-97bfb9caa6a4")
+			(uuid "4c8706c4-c225-497e-a7dd-2596138a00ec")
 			(effects
 				(font
 					(size 1 1)
@@ -2120,7 +2119,7 @@
 		(property "Value" "10u"
 			(at 0 1.43 0)
 			(layer "F.Fab")
-			(uuid "eb6e28c1-7e1b-4eef-941e-ebb27d136b84")
+			(uuid "356a6347-ccbe-4f77-a64c-9142a5b7b19c")
 			(effects
 				(font
 					(size 1 1)
@@ -2132,7 +2131,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a0b85525-132f-4d7f-a57f-e22e899ca05e")
+			(uuid "d1326f9a-755b-42ff-9bcb-2cca53267a90")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2143,7 +2142,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "30b7a460-fd86-46ff-a232-057c3c0cc99d")
+			(uuid "ffd5018c-51a0-4b30-a45f-6b376419c771")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2339,7 +2338,7 @@
 	(footprint "GLCS:Diode_DFN1006"
 		(layer "F.Cu")
 		(uuid "d8e9bd3a-ba50-4add-9d63-b67616b4d471")
-		(at 150 103)
+		(at 150 103.25)
 		(descr "Diode SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "diode")
 		(property "Reference" "D1"
@@ -2643,7 +2642,7 @@
 			(at 0 -3.15 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "025686b1-553a-4c43-834d-85be4c175df9")
+			(uuid "e3c58007-d685-4646-bbd1-1ff7e421b21b")
 			(effects
 				(font
 					(size 1 1)
@@ -2654,7 +2653,7 @@
 		(property "Value" "MountingHole_Pad"
 			(at 0 3.15 0)
 			(layer "F.Fab")
-			(uuid "e509b4ae-f285-4000-8134-bc562c4dddbf")
+			(uuid "94864cd8-7d47-4355-b3a1-d6f478a83bc6")
 			(effects
 				(font
 					(size 1 1)
@@ -2666,7 +2665,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "861ba9a5-2e54-41b9-9e94-5b1141ac489a")
+			(uuid "047d539f-466f-406b-957c-5d618ba80432")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2677,7 +2676,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "52f64e43-16a7-46cf-9b4c-7f4f5d4473c4")
+			(uuid "06af0561-ae87-4e63-a3b0-b7e5184f7196")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2854,7 +2853,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "ecc1d9f0-2746-46b3-a823-54245a023def")
-		(at 145 104.25 180)
+		(at 145 104.5 180)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C2"
@@ -3090,7 +3089,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "f520b64b-7b6e-48a6-94e5-01eb5b426b70")
-		(at 145 105.75 180)
+		(at 145 106 180)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C3"
@@ -3322,6 +3321,18 @@
 				(xyz 0 0 0)
 			)
 		)
+	)
+	(gr_rect
+		(start 141 86)
+		(end 153 111)
+		(radius 3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "6d18b04a-1d6c-444a-8a51-dc02715e6910")
 	)
 	(embedded_fonts no)
 )
