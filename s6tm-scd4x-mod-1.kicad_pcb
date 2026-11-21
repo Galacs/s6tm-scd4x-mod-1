@@ -127,13 +127,13 @@
 		(descr "Diode SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "diode")
 		(property "Reference" "D2"
-			(at 0.14 -1.2 0)
+			(at 0 -1 0)
 			(layer "F.SilkS")
 			(uuid "1fd58477-c29e-4c5f-9287-66e0548f267f")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.75 0.75)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -379,8 +379,8 @@
 			(uuid "aa626d22-3f5d-48ef-9468-7ece12ef3d47")
 			(effects
 				(font
-					(size 0.25 0.25)
-					(thickness 0.04)
+					(size 0.75 0.75)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -424,13 +424,13 @@
 		(descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x04 2.54mm single row")
 		(property "Reference" "J1"
-			(at 0 -2.38 90)
+			(at -2 -0.5 180)
 			(layer "F.SilkS")
 			(uuid "080ec51d-cba0-4e9c-8a7c-47ca14f8b5da")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.75 0.75)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -584,8 +584,8 @@
 			(uuid "b03eb347-d8b1-4c12-8b3c-47506d032ca2")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.75 0.75)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -654,13 +654,13 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C1"
-			(at 0 -1.16 0)
+			(at -1.5 0.015819 0)
 			(layer "F.SilkS")
 			(uuid "7ef7b26b-3d1c-4e12-b944-7726ffbb6d3c")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.75 0.75)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -847,8 +847,8 @@
 			(uuid "31427b95-d290-48e5-8aa7-ed375517638e")
 			(effects
 				(font
-					(size 0.25 0.25)
-					(thickness 0.04)
+					(size 0.75 0.75)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -890,13 +890,13 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C4"
-			(at 11.1 0.065 0)
+			(at -2 0 0)
 			(layer "F.SilkS")
 			(uuid "4c371121-5b36-4904-b1d1-64a700f33c2f")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.75 0.75)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -1083,8 +1083,8 @@
 			(uuid "23aa3184-dd39-4d17-822a-688eb17d5c5a")
 			(effects
 				(font
-					(size 0.4 0.4)
-					(thickness 0.06)
+					(size 0.75 0.75)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -1126,13 +1126,13 @@
 		(descr "Diode SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "diode")
 		(property "Reference" "D3"
-			(at 0.14 -1.2 90)
+			(at 0 1.25 180)
 			(layer "F.SilkS")
 			(uuid "947b0c0a-27c9-49cf-bc38-a119710c64c1")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.75 0.75)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -1378,8 +1378,8 @@
 			(uuid "a8fb079d-3965-4669-b355-c520763bfb15")
 			(effects
 				(font
-					(size 0.25 0.25)
-					(thickness 0.04)
+					(size 0.75 0.75)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -1423,13 +1423,13 @@
 		(descr "Sensirion SCD4x QFN, 20 Pin (https://sensirion.com/media/documents/C4B87CE6/627C2DCD/CD_DS_SCD40_SCD41_Datasheet_D1.pdf)")
 		(tags "Sensirion QFN NoLead")
 		(property "Reference" "U1"
-			(at 0 -6.05 0)
+			(at -5 -6.25 0)
 			(layer "F.SilkS")
 			(uuid "640b635d-5979-49e7-be14-c7a3de70f517")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.75 0.75)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -1852,8 +1852,8 @@
 			(uuid "79f34654-8aa8-4575-a545-0bb28a4204f8")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.75 0.75)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -2074,13 +2074,13 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C5"
-			(at 0 -1.43 0)
+			(at 0 1.25 0)
 			(layer "F.SilkS")
 			(uuid "4c8706c4-c225-497e-a7dd-2596138a00ec")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.75 0.75)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -2267,8 +2267,8 @@
 			(uuid "80859e84-3c95-40df-8e14-ba4f0420fb85")
 			(effects
 				(font
-					(size 0.4 0.4)
-					(thickness 0.06)
+					(size 0.75 0.75)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -2310,13 +2310,13 @@
 		(descr "Diode SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "diode")
 		(property "Reference" "D1"
-			(at 0.14 -1.2 0)
+			(at 0 1 0)
 			(layer "F.SilkS")
 			(uuid "52bbf100-818c-44a2-a81d-5d97dff6f18f")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.75 0.75)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -2562,8 +2562,8 @@
 			(uuid "888ef208-ca29-4734-8f07-d785498e8506")
 			(effects
 				(font
-					(size 0.25 0.25)
-					(thickness 0.04)
+					(size 0.75 0.75)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -2613,8 +2613,8 @@
 			(uuid "e3c58007-d685-4646-bbd1-1ff7e421b21b")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.75 0.75)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -2703,8 +2703,8 @@
 			(uuid "737e4d58-df08-4cae-8119-5f62ad50407e")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.75 0.75)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -2825,13 +2825,13 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C2"
-			(at 0 -1.43 0)
+			(at 2.25 0.029735 0)
 			(layer "F.SilkS")
 			(uuid "c7a05dc0-6518-4fa7-9139-fbc489d4ca3f")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.75 0.75)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -3018,8 +3018,8 @@
 			(uuid "deff4587-54c1-488c-b253-878229b30463")
 			(effects
 				(font
-					(size 0.4 0.4)
-					(thickness 0.06)
+					(size 0.75 0.75)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -3061,13 +3061,13 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C3"
-			(at 0 -1.43 0)
+			(at 2.25 -0.087915 0)
 			(layer "F.SilkS")
 			(uuid "8921907f-d029-420d-a129-ae655e11b2e2")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.75 0.75)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -3254,8 +3254,8 @@
 			(uuid "e501c162-c0ab-4b36-843c-7798cd0fa755")
 			(effects
 				(font
-					(size 0.4 0.4)
-					(thickness 0.06)
+					(size 0.75 0.75)
+					(thickness 0.1)
 				)
 			)
 		)
