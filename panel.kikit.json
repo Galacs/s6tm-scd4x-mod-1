@@ -1,0 +1,45 @@
+{
+    "layout": {
+        "hspace": "2mm",
+        "vspace": "2mm",
+        "rows": "2",
+        "cols": "3"
+    },
+    "tabs": {
+        "type": "fixed",
+        "vwidth": "15mm",
+        "hwidth": "10mm"
+    },
+    "cuts": {
+        "type": "vcuts"
+    },
+    "framing": {
+        "type": "railslr"
+    },
+    "tooling": {
+        "type": "4hole",
+        "size": "1.152mm"
+    },
+    "fiducials": {
+        "type": "4fid"
+    },
+    "text": {
+        "type": "simple",
+        "text": "S6TM SCD4x mod 1"
+    },
+    "text2": {
+        "type": "simple",
+        "width": "1mm",
+        "height": "1mm",
+        "text": "R\u00e9mi A. 26-11"
+    },
+    "text3": {
+        "type": "simple",
+        "width": "1mm",
+        "height": "1mm",
+        "text": "Rev 01"
+    },
+    "post": {
+        "millradius": "1mm"
+    }
+}
